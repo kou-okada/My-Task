@@ -25,7 +25,7 @@ public class FifthTask {
 		int itemCount;
 		int sales;
 
-		System.out.printf("%8s\t,\t売り上げ総額\n", listColumns[0]);
+		System.out.printf("%s,売り上げ総額\n", listColumns[0]);
 		for (int rowIdx = 1; rowIdx < salesList.size(); rowIdx++) {
 
 			date = salesList.get(rowIdx)[0];
@@ -39,7 +39,7 @@ public class FifthTask {
 
 				if (listCode.equals(itemCode)) {
 					sales = price * itemCount;
-					System.out.printf("%s\t,\t%8d円\n", date, sales);
+					System.out.printf("%s,%d円\n", date, sales);
 				}
 
 			}
