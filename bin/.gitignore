@@ -1,10 +1,38 @@
-/FirstTask.class
-/FourthTask.class
-/SecondTask.class
-/ThirdTask.class
-/FifthTask.class
-/Sales.class
-/SalesItem.class
-/ImproventFifthTask.class
-/Sales/
-/ImprovementFifthTask.class
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
+
+# Maven
+target
+
+# Build
+out
+build
+bin
+
+# Other
+*.log
+*.swp
+*.bak
